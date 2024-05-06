@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body onbeforeunload="save();">
+  <main></main> <!-- draggable, contains everything -->
+  <nav></nav>
+  <div id="point-counter"></div>
+  <div id="submit-button"></div>
+  <div class="bar">
+    <button onclick="showHistory();">View play history</button>
+    <button onclick="pretendDayPassed();">(CHEAT) time travel to tomorrow</button>
+  </div>
+  <script src="wordlist.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
